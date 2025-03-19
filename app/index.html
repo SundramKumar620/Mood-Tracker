@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Asset/Love.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h1 class="heading">Mood Tracker</h1>
+<div class="allcontent">
+    <div class="leftdiv">
+    <!-- Div to hold emojis for mood selection -->
+    <div class="divemoji">
+        <h3>Select Your Mood For Today</h3>
+        <div class="allemojibtn">
+            <!-- Each emoji item represents a mood option -->
+            <div class="emoji-item">
+                <button class="button" data-mood="Happy">😀</button>
+                <span>Happy</span>
+            </div>
+            <div class="emoji-item">
+                <button class="button" data-mood="Sad">😔</button>
+                <span>Sad</span>
+            </div>
+            <div class="emoji-item">
+                <button class="button" data-mood="Angry">😡</button>
+                <span>Angry</span>
+            </div>
+            <div class="emoji-item">
+                <button class="button" data-mood="Chill">😊</button>
+                <span>Chill</span>
+            </div>
+            <div class="emoji-item">
+                <button class="button" data-mood="Hugging">🤗</button>
+                <span>Hugging</span>
+            </div>
+            <div class="emoji-item">
+                <button class="button" data-mood="Tired">😴</button>
+                <span>Tired</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Div to display the calendar -->
+    <div class="calneder">
+      <!-- Calendar will be dynamically generated here -->
+    </div>
+</div>
+
+<div class="rightdiv">
+    <!-- Section for displaying mood history -->
+    <h2>Mood History</h2>
+    <div class="moodhistory">
+      <!-- Each mood entry with its timestamp -->
+  </div>
+
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
