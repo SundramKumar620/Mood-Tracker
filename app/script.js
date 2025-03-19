@@ -121,13 +121,13 @@ function updateCalendarMood(currentMood) {
         todayCell.style.backgroundColor = 'green';  // Green for Happy mood
         break;
       case 'Sad':
-        todayCell.style.backgroundColor = 'blue';  // Blue for Sad mood
+        todayCell.style.backgroundColor = 'rgb(30, 0, 222)';  // Blue for Sad mood
         break;
       case 'Angry':
         todayCell.style.backgroundColor = 'red';  // Red for Angry mood
         break;
       case 'Chill':
-        todayCell.style.backgroundColor = 'lightblue';  // Light blue for Chill mood
+        todayCell.style.backgroundColor = 'rgb(0, 120, 164)';  // Light blue for Chill mood
         break;
       case 'Hugging':
         todayCell.style.backgroundColor = 'purple';  // Purple for Hugging mood
@@ -151,13 +151,13 @@ function applyMoodToDay(dayCell, mood) {
       dayCell.style.backgroundColor = 'green';  // Green for Happy
       break;
     case 'Sad':
-      dayCell.style.backgroundColor = 'blue';  // Blue for Sad
+      dayCell.style.backgroundColor = 'rgb(30, 0, 222)';  // Blue for Sad
       break;
     case 'Angry':
       dayCell.style.backgroundColor = 'red';  // Red for Angry
       break;
     case 'Chill':
-      dayCell.style.backgroundColor = 'lightblue';  // Light Blue for Chill
+      dayCell.style.backgroundColor = 'rgb(0, 120, 164)';  // Light Blue for Chill
       break;
     case 'Hugging':
       dayCell.style.backgroundColor = 'purple';  // Purple for Hugging
