@@ -70,6 +70,10 @@ body {
   padding-bottom: 22px;
 }
 
+.button:hover{
+  transform: scale(1.05);
+}
+
 .button::after {
   content: '';
   position: absolute;
